@@ -12,7 +12,7 @@ int main() {
 	string save = s;
 	for (int i = 0; i < n; i++) {
 		// Break the loop once we encounter a 0 (since it will not modify the next bit anymore).
-		// However, if the current bit is 1, then we need to set it to 0 and modify the next bit
+		// However, if the current bit is 1, then we need to set it to 0 and modify the next bit.
 		if (s[i] == '0') {
 			s[i] = '1';
 			break;
